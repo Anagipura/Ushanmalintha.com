@@ -1,0 +1,122 @@
+h1 {
+    text-align: center;
+}
+
+.p1 {
+    margin: 6%;
+}
+h2 {
+    margin: 45px;
+}
+
+li {
+    margin-left: 65px;
+}
+
+.container {
+    background-color: rgb(185, 214, 228);
+    margin-left: 20%;
+    margin-right: 20%;
+    font-weight: initial;
+    border-radius: 5px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-color: black;
+    border-style: solid;
+    border-color: rgb(119, 179, 236);
+
+}
+.pd {
+    border-style: dotted;
+    border-color:  rgb(91, 162, 229);
+    margin: 6%;
+    padding-bottom: 5%;
+}
+
+.edu {
+    border-style: dotted;
+    border-color:  rgb(91, 162, 229);
+    margin: 6%;
+    padding-bottom: 5%;
+}
+
+.skills {
+    border-style: dotted;
+    border-color:  rgb(91, 162, 229);
+    margin: 6%;
+    padding-bottom: 5%;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    margin-bottom: 3%;
+    border-style: outset;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #0f0202;
+}
+
+th {
+    background-color: #959595;
+}
+
+.certificates {
+    display: flex;
+    margin: 5%;
+}
+
+.certificates {
+    display: flex;
+    grid-template-columns: 1fr 1fr; /* Adjust the number of columns as needed */
+    grid-gap: 10px; /* Adjust the spacing between the images */
+
+  }
+.certificates p {
+    display: inline-flex;
+}
+.certificates li p {
+    font-size: 16px;
+    margin: 0;
+    display: inline-table;
+}
+
+.social-media-icons-black a {
+    color: #000;
+    text-decoration: none;
+    font-size: 50px;
+    transition: all .2s ease-in-out;
+    margin: 40px;
+
+}
+
+.singleCol {
+    max-width: 750px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.social-media-icons-black a:hover {
+    color: #0011ff;
+
+}
+
+h5 {
+    margin-left: 5%;
+}
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px; /* Adjust the gap between columns */
+}
+
+.column {
+    list-style-type: none; /* Remove bullet points */
+}
+
